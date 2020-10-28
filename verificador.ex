@@ -75,8 +75,8 @@ defmodule VerificaCPF do
 
   def validarDigitos(novosDigitos, inputUsuario) do # Comparing the calculated digits with the user input.
     case novosDigitos == inputUsuario do
-    true -> true # If it matches, return true. (The CPF is valid)
-    false -> false # If it does not match, return false. (THE CPF is not valid)
+    true -> true # If it matches, returns true. (The CPF is valid)
+    false -> false # If it does not match, returns false. (THE CPF is not valid)
     end
   end
 
