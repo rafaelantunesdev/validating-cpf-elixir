@@ -1,5 +1,6 @@
 defmodule VerificaCPF do
 
+  # Input: 000.000.000-00    -> For example: 123.456.789-10
   def verificar(cpf) do
     cpf
     |> stringHandler()
